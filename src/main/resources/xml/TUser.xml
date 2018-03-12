@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xz.springboot.mapper.TUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xz.springboot.model.TUser">
+        <id column="userid" property="userid" />
+        <result column="realname" property="realname" />
+        <result column="idcard" property="idcard" />
+        <result column="username" property="username" />
+        <result column="userpwd" property="userpwd" />
+        <result column="telphone" property="telphone" />
+        <result column="usertype" property="usertype" />
+    </resultMap>
+
+</mapper>

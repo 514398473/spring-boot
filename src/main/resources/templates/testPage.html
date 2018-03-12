@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script src="/js/3.16.js"></script>
+</head>
+<body>
+<h1>Hello hhhhhhh</h1>
+<table>
+	<tr th:each="prod : ${pageList.records}">
+	     <td th:text="${prod.userid}">Onions</td>
+	     <td th:text="${prod.realname}">2.41</td>
+	     <td th:text="${prod.idcard}">2.41</td>
+	</tr>
+</table>
+<script type="text/javascript">
+$(function(){
+	alert();
+});
+</script>
+</body>
+</html>
